@@ -1,0 +1,228 @@
+body{
+    background-color: #0A1843;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e8eaed;
+    font-size: 1.2rem;
+    margin: 2rem;
+    border: solid 2px #000C33;
+    border-radius: 2rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 4fr 10%;
+}
+
+.CRUD_Tutoriais_Container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10% 1fr;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+}
+
+.CRUD_Tutoriais_Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23346E;
+    border-radius: 2rem;
+    padding: 1rem 0;
+    margin: 1rem;
+    font-size: 1.2rem;
+    border: solid #000C33;
+    text-shadow: 
+        2px 2px 0px black,
+        -2px 2px 0px black,
+        2px -2px 0px black,
+        2px -2px 0px black;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+}
+
+.CRUD_Tutoriais_Form{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.CRUD_Tutoriais_Fieldset_Fixa{
+    margin-top: 2rem;
+    margin-left:4rem;
+    border: solid 5px #000C33;
+    border-radius: 2rem;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.CRUD_Tutoriais_Fieldset_Variavel{
+    margin-top: 2rem;
+    margin-left:4rem;
+    border: solid 5px #000C33;
+    border-radius: 2rem;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.CRUD_Tutoriais_Legend{
+    text-shadow: 
+        2px 2px 0px black,
+        -2px 2px 0px black,
+        2px -2px 0px black,
+        2px -2px 0px black;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.CRUD_Tutoriais_Label{
+    margin-left: 0.5rem;
+    font-size:1rem;
+    text-shadow: 
+    2px 2px 0px black,
+    -2px 2px 0px black,
+    2px -2px 0px black,
+    2px -2px 0px black;
+}
+
+.CRUD_Tutoriais_Tutoriais{
+    border: solid 5px #000C33;
+    border-radius: 2rem;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    margin:2rem
+}
+
+.CRUD_Tutoriais_Title_Tutoriais{
+    font-size:4rem;
+    color: #000C33;
+    text-shadow: 
+    1px 1px 0px white,
+    -1px 1px 0px white,
+    1px -1px 0px white,
+    1px -1px 0px white;
+    text-align: center;
+    margin: 2rem;
+}
+
+.CRUD_Tutoriais_Tela_Apresentar{
+    display:grid;
+    grid-template-rows: 10% 1fr;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.CRUD_Tutoriais_Aba{
+    border: 5px solid #000C33;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #23346E;
+    color: #e8eaed;
+    text-shadow: 
+    2px 2px 0px black,
+    -2px 2px 0px black,
+    2px -2px 0px black,
+    2px -2px 0px black;
+}
+
+.CRUD_Tutorias_Button{
+    float:right;
+}
+
+.CRUD_Tutoriais_List{
+    margin-top: 1rem;
+}
+
+.CRUD_Tutoriais_Lista_Tutoriais{
+    width: 90%;
+    background-color: #e8eaed;
+    border: 5px solid #000C33;
+}
+
+.list-group-item{
+    border: thin solid #000C33;
+    padding: 4px;
+    font-size: 1rem;
+    padding-left: 1rem;
+    color: black;
+    text-shadow: 
+    2px 2px 0px white,
+    -2px 2px 0px white,
+    2px -2px 0px white,
+    2px -2px 0px white;
+}
+
+.list-group-item:hover{
+    color: white;
+    text-shadow: 
+    2px 2px 0px black,
+    -2px 2px 0px black,
+    2px -2px 0px black,
+    2px -2px 0px black;
+}
+
+.CRUD_Tutoriais_Limpar_Button{
+    grid-row-start: 3;
+}
+
+
+
+/*CSS Para Tela de Login do Aplicativo*/
+.Tela_Login {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Formulario_Login {
+    background-color: #5D7097;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+.Formulario_Login input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D6DBE6;
+    font-size: 16px;
+}
+
+.Formulario_Login button {
+    padding: 10px;
+    background-color: #2D3A5C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Formulario_Login button:hover{
+    background-color: lightgray;
+    color: black;
+    text-decoration: underline;
+}
+
+.Link_Cadastro {
+    text-align: center;
+    color: #0A1A42;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.Link_Cadastro:hover {
+    text-decoration: underline;
+}
+
+
